@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtSize">18sp</dimen>
+    <dimen name="lLPadding">4dp</dimen>
+    <dimen name="vPadding">8dp</dimen>
+    <dimen name="zero">0dp</dimen>
+</resources>

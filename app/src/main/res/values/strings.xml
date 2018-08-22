@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Music App</string>
+    <string name="artist_tupac">Tupac</string>
+    <string name="artist_ice_cube">Ice Cube</string>
+    <string name="artist_snoop">Snoop Dog</string>
+    <string name="artist_dolly">Dolly Parton</string>
+    <string name="artist_willie">Willie Nelson</string>
+    <string name="artist_hank">Hank Williams</string>
+    <string name="artist_guy">Guy</string>
+    <string name="artist_kelly">R Kelly</string>
+    <string name="artist_mary">Mary J Blige</string>
+    <string name="artist_bob">Bob Marley</string>
+    <string name="artist_sean">Sean Paul</string>
+    <string name="artist_jimmy">Jimmy Cliff</string>
+    <string name="genre_country">Country</string>
+    <string name="genre_hip_hop">Hip Hop</string>
+    <string name="genre_r_b">R and B</string>
+    <string name="genre_reggae">Reggae</string>
+    <string name="artist_song_tupac">All Eyes on Me</string>
+    <string name="artist_song_snoop">Doggy Style</string>
+    <string name="artist_song_cube">Today was a Good Day</string>
+    <string name="artist_song_dolly">9 to 5</string>
+    <string name="artist_song_willie">On the Road again</string>
+    <string name="artist_song_hank">Good Lookin</string>
+    <string name="artist_song_kelly">Remix Ignition</string>
+    <string name="artist_song_guy">Piece of My Love</string>
+    <string name="artist_song_mary">Be without You</string>
+    <string name="artist_song_bob">Is This Love</string>
+    <string name="artist_song_sean">No Lie</string>
+    <string name="artist_song_jimmy">The harder They Come</string>
+    <string name="play">Play</string>
+    <string name="artist">Artist</string>
+    <string name="song">Song</string>
+    <string name="song_is_now_playing">Song is now playing</string>
+    <string name="user_selects_a_song">User Selects a Song</string>
+    <string name="user_chooses_a_category">User chooses a Category</string>
+
+</resources>

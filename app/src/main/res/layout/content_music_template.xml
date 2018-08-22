@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="@dimen/lLPadding">
+
+    <Button
+        android:id="@+id/btnHipHop"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        android:padding="@dimen/vPadding"
+        android:text="@string/genre_hip_hop"
+        android:textSize="@dimen/txtSize"
+        app:layout_constraintBottom_toTopOf="@+id/btnReggae"
+        app:layout_constraintEnd_toStartOf="@+id/btnRB"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRB"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        android:padding="@dimen/vPadding"
+        android:text="@string/genre_r_b"
+        android:textSize="@dimen/txtSize"
+        app:layout_constraintBottom_toTopOf="@+id/btnCountry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnHipHop"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReggae"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        android:padding="@dimen/vPadding"
+        android:text="@string/genre_reggae"
+        android:textSize="@dimen/txtSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCountry"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHipHop" />
+
+    <Button
+        android:id="@+id/btnCountry"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        android:padding="@dimen/vPadding"
+        android:text="@string/genre_country"
+        android:textSize="@dimen/txtSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnReggae"
+        app:layout_constraintTop_toBottomOf="@+id/btnRB" />
+</android.support.constraint.ConstraintLayout>
